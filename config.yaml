@@ -1,0 +1,52 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: My New Hugo Site
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: 'Hello Stranger'
+    Content: 'Welcome to my blog. Here you can find what I don''t want to forget.'
+  socialIcons:
+      - name: facebook
+        url: 'www.facebook.com'
+      - name: twitter
+        url: 'www.twitter.com'
+      - name: github
+        url: 'www.github.com'
+     
+
+  cover:
+    linkFullImages: true
+  
+  ShowBreadCrumbs: true
+  
+  ShowReadingTime: true
+
+  ShowShareButtons: true
+
+  ShowPostNavLinks: true
+menu:
+  main:
+    - indentifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - indentifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - indentifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
+    - indentifier: search
+      name: Search
+      url: /search/
+      weight: 40
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search

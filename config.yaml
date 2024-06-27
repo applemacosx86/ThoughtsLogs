@@ -1,6 +1,6 @@
 baseURL: https://thoughtslogs.netlify.app/
 languageCode: en-us
-title: My New Hugo Site
+title: Thoughts Logs
 theme: PaperMod
 
 params:

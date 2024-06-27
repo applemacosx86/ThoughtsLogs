@@ -2,6 +2,8 @@
 title : 'Git Logs - git学习备忘录'
 date : 2024-06-28T00:01:04+08:00
 draft : false
+tags: ["git"]
+categories: ["tech"]["tutorial"]
 ---
 # git pull 和 git fetch 区别
 

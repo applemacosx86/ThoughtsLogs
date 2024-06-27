@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Jun 2024 22:51:04 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setup Search Page</title>
+      <link>http://localhost:1313/posts/hugosearch/</link>
+      <pubDate>Wed, 26 Jun 2024 22:51:04 +0800</pubDate>
+      <guid>http://localhost:1313/posts/hugosearch/</guid>
+      <description>How to Setup the Hugo Search Page Solution from Github
+Search Page PaperMod uses Fuse.js Basic for search functionality Add the following to site config, config.yml
+outputs: home: - HTML - RSS - JSON # necessary for search Create a page with search.md in content directory with following content
+--- title: &amp;quot;Search&amp;quot; # in any language you want layout: &amp;quot;search&amp;quot; # necessary for search # url: &amp;quot;/archive&amp;quot; # description: &amp;quot;Description for Search&amp;quot; summary: &amp;quot;search&amp;quot; placeholder: &amp;quot;placeholder text in search input box&amp;quot; --- To hide a particular page from being searched, add it in post&amp;rsquo;s frontmatter</description>
+    </item>
+    <item>
+      <title>Set Hugo Frontmatter DEFAULT Format</title>
+      <link>http://localhost:1313/posts/hugofrontmatterformat/</link>
+      <pubDate>Thu, 20 Jun 2024 22:53:04 +0800</pubDate>
+      <guid>http://localhost:1313/posts/hugofrontmatterformat/</guid>
+      <description>How to Set Hugo Frontmatter DEFAULT Format create a custom template(s) in the /archetype folder
+Solution from Github</description>
+    </item>
+    <item>
+      <title>YAML”转译符“是什么</title>
+      <link>http://localhost:1313/posts/misc/</link>
+      <pubDate>Wed, 19 Jun 2024 23:29:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/misc/</guid>
+      <description>YAML”转译符“(escape character)是什么? 来自Gemini的解释 在 YAML 中，转义符用于指示字符串中的特殊字符，使其能够按原样表示，而不是作为特殊字符解释。例如，如果要在字符串中包含冒号 (:)，则需要对其进行转义，否则 YAML 解析器会将其解释为键值对分隔符。
+以下是一些常见的 YAML 转义符：
+: 转义冒号 (:) &amp;quot;: 转义双引号 (&amp;quot;) &amp;lsquo;: 转义单引号 (&amp;rsquo;) \t: 转义制表符 (TAB) \n: 转义换行符 (LF) \r: 转义回车符 (CR) \: 转义反斜杠 () 例如，以下 YAML 代码将字符串 &amp;ldquo;Hello, world!&amp;rdquo; 转义为字面值：
+YAML &amp;ldquo;Hello, world!&amp;rdquo; Use code with caution. content_copy 如果不转义冒号，则以下 YAML 代码将无效：
+YAML &amp;ldquo;Hello: world!&amp;rdquo; Use code with caution. content_copy 因为 YAML 解析器会将冒号解释为键值对分隔符，并将 &amp;ldquo;world!&amp;rdquo; 解析为值。要正确表示字符串 &amp;ldquo;Hello: world!&amp;quot;，需要对其进行转义：
+YAML &amp;ldquo;Hello: world!&amp;rdquo; Use code with caution.</description>
+    </item>
+    <item>
+      <title>First</title>
+      <link>http://localhost:1313/posts/first/</link>
+      <pubDate>Tue, 18 Jun 2024 07:59:22 +0800</pubDate>
+      <guid>http://localhost:1313/posts/first/</guid>
+      <description>This is the first hugo post! </description>
+    </item>
+  </channel>
+</rss>

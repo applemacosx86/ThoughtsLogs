@@ -7,3 +7,5 @@ cover:
 ---
 # LX Music 洛雪音乐
 需要排序播放列表《我的列表》，按住command+鼠标拖动
+
+![playlist](imgs/lxmusic-playlist.jpg)

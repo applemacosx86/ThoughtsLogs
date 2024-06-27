@@ -6,6 +6,10 @@ tags: ["hugo"]
 categories: ["tech", "memo"]
 ---
 
+# How to insert an image
+
+![How to insert an image](https://stackoverflow.com/questions/71501256/how-to-insert-an-image-in-my-post-on-hugo)
+
 # How to Set Hugo Frontmatter DEFAULT Format
 
 create a custom template(s) in the /archetype folder

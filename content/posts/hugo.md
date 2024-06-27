@@ -1,17 +1,20 @@
 ---
-title : 'Setup Search Page'
-date : 2024-06-26T22:51:04+08:00
-draft : true
-cover: 
-    image: imgs/hugosearch-Screenshot 2024-06-26 at 22.59.25.jpg
-    alt: 'This is the cover image'
-    caption: 'screenshot'
+title : 'Hugo Learning Logs'
+date : 2024-06-20T22:53:04+08:00
+draft : false
 tags: ["hugo"]
-categories: ["tech"]
+categories: ["tech", "memo"]
 ---
 
-# How to Setup the Hugo Search Page
+# How to Set Hugo Frontmatter DEFAULT Format
 
+create a custom template(s) in the /archetype folder
+![playlist](/imgs/frontmatter.jpg)
+
+[Solution from Github](https://github.com/gohugoio/hugo/issues/9363#issuecomment-1007392878)
+
+# How to Setup the Hugo Search Page
+![search page](/imgs/hugosearch-Screenshot%202024-06-26%20at%2022.59.25.jpg)
 [Solution from Github](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#search-page)
 
 ### Search Page

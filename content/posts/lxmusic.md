@@ -5,7 +5,7 @@ draft : false
 <!--cover: 
     image: imgs/lxmusic-playlist.jpg-->
 ---
-# LX Music 洛雪音乐 <!--学习注释从这里开始-->
+<!--学习注释从这里开始-->
 需要排序播放列表《我的列表》，按住command+鼠标拖动
 
 ![playlist](/imgs/lxmusic-playlist.jpg)

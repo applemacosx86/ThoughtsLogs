@@ -12,4 +12,4 @@ y: yes – do correct; run gdir, as Zsh suggested
 a: abort – don’t run anything, and get a new prompt (to type a completely different command)
 e: edit – edit what you typed interactively – for instance, so you can change dir to udir
 
-![Answer from stackoverflow](https://stackoverflow.com/questions/800182/what-does-nyae-mean-in-zsh)
+[Answer from stackoverflow](https://stackoverflow.com/questions/800182/what-does-nyae-mean-in-zsh)

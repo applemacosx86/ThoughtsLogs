@@ -1,10 +1,10 @@
 ---
-title : 'YAML”转译符“是什么'
+title : 'YAML” Memo'
 date : 2024-06-19T23:29:50+08:00
 draft : false
 ---
 
-## YAML”转译符“(escape character)是什么?
+## YAML”转义符“(escape character)是什么?
 来自Gemini的解释
 
 在 YAML 中，转义符用于指示字符串中的特殊字符，使其能够按原样表示，而不是作为特殊字符解释。例如，如果要在字符串中包含冒号 (:)，则需要对其进行转义，否则 YAML 解析器会将其解释为键值对分隔符。

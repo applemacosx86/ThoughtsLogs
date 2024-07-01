@@ -2,8 +2,10 @@
 title : 'Markdown Learning Memo'
 date : 2024-07-01T09:21:59+08:00
 draft : false
+tags: [markdown,program]
+categories: [tech]
 ---
-#### 通过 Markdown 解析达到注释效果
+## 通过 Markdown 解析达到注释效果
 
     [//]: 这是一段被注释掉的文字
     [^_^]:

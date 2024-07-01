@@ -2,6 +2,8 @@
 title : 'Iterms Learning Memo'
 date : 2024-07-01T02:24:53+08:00
 draft : false
+tags: [iterm]
+categories: [tech,macos]
 ---
 
 # iTerm2光标按照单词快速移动设置

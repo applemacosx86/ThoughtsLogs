@@ -1,1 +1,11 @@
+# 忽略MacOS下面的文件
 *.DS_Store
+
+# 匹配根目录下的 unpackage 文件夹
+/public/
+
+# 取消对 unpackage 下的 dist 文件夹的忽略 "!" 可以用于取消忽略
+#!/unpackage/dist/
+
+# 取消对 unpackage 下的 dist 文件夹的忽略 
+#!/unpackage/res/

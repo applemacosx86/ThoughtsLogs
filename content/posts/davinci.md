@@ -5,7 +5,7 @@ draft : false
 cover: 
     image: /imgs/davinci/davinci-banner.jpg
     alt: This is the cover image
-    caption: banner
+    caption: 
 tags: [davinci]
 categories: [tech,memo,editing,post production]
 ---

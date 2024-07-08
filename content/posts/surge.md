@@ -2,10 +2,8 @@
 title : 'Surge Memo'
 date : 2024-07-09T01:20:09+08:00
 draft : false
-<!--cover: 
-    image: imgs/papermod-cover.png
-    alt: This is the cover image
-    caption: screenshot-->
+cover: 
+    image: imgs/surge-banner.jpg 
 tags: [surge]
 categories: [tech,memo,proxy,network]
 ---

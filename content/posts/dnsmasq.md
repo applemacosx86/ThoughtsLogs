@@ -2,10 +2,8 @@
 title : 'Dnsmasq Memo'
 date : 2024-07-11T00:07:02+08:00
 draft : false
-<!--cover: 
-    image: imgs/papermod-cover.png
-    alt: This is the cover image
-    caption: screenshot-->
+cover: 
+    image: imgs/dnsmasq.jpg
 tags: [dnsmasq]
 categories: [tech,memo,linux]
 ---
